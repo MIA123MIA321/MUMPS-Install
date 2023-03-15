@@ -11,11 +11,10 @@ Add to the environment variable, and run the following command to check
 ```
 which mpicc
 # e.g. ~/anaconda3/pkgs/mpich-3.3.2-hc856adb_0/bin/mpicc
-# Mark this path as "MPI_PATH"
 ```
 ### 3.Install mpi4py
 ```
-env MPI_pth conda install mpi4py
+env above_MPICC_pth conda install mpi4py
 # import mpi4py
 # from mpi4py import MPI
 # Check if it runs successfully
