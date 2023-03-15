@@ -36,7 +36,9 @@ cd above_pth/mumps
 vim __init__.py
 ```
 Confirm whether the two underlined lines are commented. If not, comment it.
-![check](check.jpg)
+<div align="center">
+<img src=center.jpg  width=50% />
+</div>
 ### 7.Test
 ```
 conda activate your_env
