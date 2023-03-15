@@ -1,5 +1,5 @@
 # MUMPS-Install
-Installation guide of MUMPS for python on Linux
+Installation guide of MUMPS for python
 ### 1.Create a new conda environment first
 ```
 conda create --name your_env python=3.7
