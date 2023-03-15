@@ -47,7 +47,7 @@ python test.py
 ## [1.,2.,3.,4.,5.]
 ```
 ### 8.References
-././ 
+[PyMUMPS: A parallel sparse direct solver](https://github.com/PyMumps/pymumps)
 
 ### 9.points for attention
 If a python file use MUMPS, it cannot import torch, otherwise, errors will occur.
