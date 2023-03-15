@@ -2,8 +2,8 @@
 Installation guide of MUMPS for python on Linux
 ### 1.Create a new conda environment first
 ```
-conda create --name your_name python=3.7
-conda activate your_name
+conda create --name your_env python=3.7
+conda activate your_env
 ```
 ### 2.Check mpicc environment
 If mpi is not installed, you can install mpich or openmp.  
@@ -31,7 +31,21 @@ conda install -c conda-forge pymumps
 ### 6.Find the mumps location
 ```
 pip show pymumps
-## e.g. ~/anaconda3/envs/py377/lib/python3.7/site-packages 
+## e.g. ~/anaconda3/envs/your_env/lib/python3.7/site-packages 
 cd above_pth/mumps
 vim __init__.py
 ```
+Confirm whether the two underlined lines are commented. If not, comment it.
+![check](check.jpg)
+### 7.Test
+```
+conda activate your_env
+python test.py
+## [1.,2.,3.,4.,5.]
+```
+## 8.References
+pymumps mainly has a three-part structure: Analyse, Factorize and Solve.  
+
+
+
+
