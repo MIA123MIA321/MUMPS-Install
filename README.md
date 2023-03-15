@@ -37,17 +37,20 @@ vim __init__.py
 ```
 Confirm whether the two underlined lines are commented. If not, comment it.
 <div align="center">
-<img src=center.jpg  width=50% />
+<img src="https://github.com/MIA123MIA321/MUMPS-Install/blob/main/check.jpg"  width=50% />
 </div>
+
 ### 7.Test
 ```
 conda activate your_env
 python test.py
 ## [1.,2.,3.,4.,5.]
 ```
-## 8.References
-pymumps mainly has a three-part structure: Analyse, Factorize and Solve.  
+### 8.References
+././ 
 
+### 9.points for attention
+If a python file use MUMPS, it cannot import torch, otherwise, errors will occur.
 
 
 
