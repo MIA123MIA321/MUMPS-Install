@@ -14,6 +14,8 @@ conda install -c conda-forge mpich=3.3.2 (if mpich is not found)
 ```
 which mpicc
 # e.g. ~/anaconda3/pkgs/mpich-3.3.2-hc856adb_0/bin/mpicc
+# check if it is the same as `conda list mpich`
+# if not found, add it into environment variable
 ```
 ### 3.Install mpi4py
 ```
