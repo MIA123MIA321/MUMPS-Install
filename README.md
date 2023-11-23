@@ -6,15 +6,18 @@ conda create --name your_env python=3.7
 conda activate your_env
 ```
 ### 2.Check mpicc environment
-If mpi is not installed, you can install mpich or openmp.  
-Add to the environment variable, and run the following command to check
+
+```
+conda list mpich
+conda install -c conda-forge mpich=3.3.2 (if mpich is not found)
+```
 ```
 which mpicc
 # e.g. ~/anaconda3/pkgs/mpich-3.3.2-hc856adb_0/bin/mpicc
 ```
 ### 3.Install mpi4py
 ```
-env above_MPICC_pth conda install mpi4py
+conda install -c conda-forge mpi4py
 # import mpi4py
 # from mpi4py import MPI
 # Check if it runs successfully
