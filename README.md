@@ -5,7 +5,7 @@ Installation guide of MUMPS for python
 conda create --name your_env python=3.7
 conda activate your_env
 ```
-### 2.Check mpicc environment
+### 2.Check mpich environment
 
 ```
 conda list mpich
@@ -25,12 +25,9 @@ conda install -c conda-forge mpi4py
 ### 4.Install MUMPS
 ```
 conda install -c conda-forge mumps
-```
-### 5.Install pymumps
-```
 conda install -c conda-forge pymumps
 ```
-### 6.Find the mumps location
+### 5.Find the mumps location
 ```
 pip show pymumps
 ## e.g. ~/anaconda3/envs/your_env/lib/python3.7/site-packages 
@@ -42,17 +39,14 @@ Confirm whether the two underlined lines are commented. If not, comment it.
 <img src="https://github.com/MIA123MIA321/MUMPS-Install/blob/main/check.jpg"  width=50% />
 </div>
 
-### 7.Test
+### 6.Test
 ```
 conda activate your_env
 python test.py
 ## [1.,2.,3.,4.,5.]
 ```
-### 8.References
+### 7.References
 [PyMUMPS: A parallel sparse direct solver](https://github.com/PyMumps/pymumps)
-
-### 9.Points for attention
-If a python file use MUMPS, it may not import torch?
 
 
 
